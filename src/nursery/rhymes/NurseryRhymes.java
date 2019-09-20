@@ -24,7 +24,15 @@ public class NurseryRhymes {
         // TODO: make the clock strike three here
         monkeys(10);
         monkeys(9);
-        // TODO: call your new methods here ( you must write them first! ) 
+        // TODO: call your new methods here ( you must write them first! )
+        milk(99);
+//        milk(98);
+        hokey_pokey("booty");
+        bingo("(clap)-I-N-G-O");
+        frogs(3);
+        
+        
+      
         
         
     }
@@ -62,9 +70,57 @@ public class NurseryRhymes {
         System.out.println("The mouse ran up the clock");
         System.out.println("The clock struck " + time);
         System.out.println("The mouse ran down");
-        System.out.println("");
+        System.out.println("Hickery dickery dock");
+        
+        System.out.println("-----------------------------------");
     }
     
-    // TODO add your new methods here
+    public static void milk(int milk) {
+        System.out.println(milk + " bottles of milk on wall");
+        System.out.println(milk + " bottles of milk");
+        System.out.println("Take one down and pass it around");
+        milk--;
+        System.out.println(milk + " bottles of milk on the wall");
+        
+        System.out.println("-----------------------------------");
+        
+    }
     
+    public static void hokey_pokey(String bodyPart) {
+        System.out.println("You put your " + bodyPart + " in");
+        System.out.println("You put your " + bodyPart + " out ");
+        System.out.println("You put your " + bodyPart + " in");
+        System.out.println("And you shake it all about");
+        System.out.println("You do the Hokey Pokey");
+        System.out.println("And you turn yourself about");
+        System.out.println("That's what it's all about!");
+        
+        System.out.println("-----------------------------------");
+        
+    }
+
+    public static void bingo(String bingo) {
+        System.out.println("There was a farmer who had a dog");
+        System.out.println("And Bingo was his name-o");
+        System.out.println(bingo);
+        System.out.println(bingo);
+        System.out.println(bingo);
+        System.out.println("And Bingo was his name-o");
+        
+        System.out.println("-----------------------------------");
+    }
+    
+    public static void frogs(int frog) {
+        System.out.println(frog + " little speckled frogs");
+        System.out.println("sitting on a speckled log");
+        System.out.println("eating the most delicious bugs");
+        System.out.println("yum, yum");
+        System.out.println("one jumped into the pool");
+        System.out.println("where it is nice and cool");
+        frog--;
+        System.out.println("now there are " + frog + " little speckled frogs!");
+        System.out.println("ribbit, ribbit");
+    }
+       
 }
+
